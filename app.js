@@ -9,8 +9,6 @@ app.get('/api', (req, res) => {
   const githubFileUrl = 'https://github.com/Emeamos/HNGx/blob/master/app.js';
   const githubRepoUrl = 'https://github.com/Emeamos/HNGx';
 
-  // Validate UTC time within a +/-2 minute window
-
   const response = {
     slack_name,
     current_day: currentDay,
